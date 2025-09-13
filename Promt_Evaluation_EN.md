@@ -128,4 +128,103 @@ Identify for each project:
 **Project A:**
 - **Strengths**: [Outstanding technical elements]
 - **Weaknesses**: [Identified architectural limitations]
-- **Opportunities**: [Improvement and growth
+- **Opportunities**: [Improvement and growth potential]
+- **Threats**: [Technical and business risks]
+
+**Project B:**
+- **Strengths**: [Outstanding technical elements]
+- **Weaknesses**: [Identified architectural limitations]
+- **Opportunities**: [Improvement and growth potential]
+- **Threats**: [Technical and business risks]
+
+## Required Output
+
+### Delivery Format
+* Your response must be a **`.md`** file (Markdown)
+* Start with a clear verdict: **Which of the two databases is better and why?**
+* Organize your analysis in clear sections with headings (e.g., "Normalization Analysis", "Security and Audit Review", "Supabase and TypeScript Compatibility")
+* Use lists and tables to present information concisely and digestibly
+
+## Required Output Structure
+
+### Individual Analysis per Project
+
+#### Project A
+**Strengths:**
+- [Detailed list of strong points]
+
+**Database Model Weaknesses:**
+- [Specific identification of structural problems]
+- [Scalability limitations]
+- [Potential performance issues]
+- [Maintainability problems]
+
+**FOMO Analysis:**
+- [Critical missing features]
+- [Competitive risks]
+
+#### Project B
+**Strengths:**
+- [Detailed list of strong points]
+
+**Database Model Weaknesses:**
+- [Specific identification of structural problems]
+- [Scalability limitations]
+- [Potential performance issues]
+- [Maintainability problems]
+
+**FOMO Analysis:**
+- [Critical missing features]
+- [Competitive risks]
+
+### Direct Comparison
+
+#### Comparison Matrix
+| Criteria | Project A | Project B | Winner | Justification |
+|----------|-----------|-----------|--------|---------------|
+| Users/Roles | | | | |
+| Campaigns | | | | |
+| Scalability | | | | |
+| Maintainability | | | | |
+| Security | | | | |
+| Performance | | | | |
+
+### Final Recommendation
+
+#### Recommended Project: [A/B]
+**Justification:**
+- [Specific technical reasons]
+- [Business considerations]
+- [Risk assessment]
+
+#### Improvement Plan for Chosen Project
+1. **Immediate Improvements** (Current sprint)
+2. **Medium-term Improvements** (Next 2-3 sprints)
+3. **Long-term Improvements** (Future roadmap)
+
+#### Lessons for Non-chosen Project
+- [Salvageable elements for future implementation]
+- [Suggested alternative approach]
+
+## Analysis Instructions
+
+1. **Examine** the source code of both projects line by line
+2. **Analyze** ERD diagrams in detail
+3. **Evaluate** TypeScript and Supabase implementation
+4. **Identify** design patterns used
+5. **Compare** complexity and maintainability metrics
+6. **Validate** adherence to best practices
+7. **Document** all observations with specific code examples
+8. **Provide** actionable and prioritized recommendations
+
+## Special Considerations
+
+- **Prioritize clarity** over brevity in explanations
+- **Include code snippets** as evidence when relevant
+- **Consider business context** in addition to technical aspects
+- **Evaluate learning curve** for new developers
+- **Analyze time-to-market impact** of each approach
+
+---
+
+**Output format:** Structured and well-formatted Markdown (.md) document for easy reading and future reference.
